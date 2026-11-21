@@ -15,6 +15,16 @@ npx skills@latest add vercel-labs/ui --skill ui-sdk
 
 The skill also ships inside `@ui-sdk/core`, at `node_modules/@ui-sdk/core/skills/ui-sdk/SKILL.md`. That copy always matches the version you installed. If your agent doesn't support skills, point it there instead.
 
+### Devin
+
+In [Devin](https://devin.ai), install the skill as a plugin:
+
+```bash
+devin plugins install vercel-labs/ui#packages/core
+```
+
+The plugin follows your Devin account, so the skill loads in cloud sessions, the Devin CLI, and Devin Desktop. Run it with `/ui-sdk:ui-sdk`. Without the CLI, open **Customize** in the web app, choose **Add plugin**, then **From repository**, and enter `vercel-labs/ui` with the subdirectory `packages/core`.
+
 ## Use the Skill
 
 Mention the skill, your framework, and the interaction you want:

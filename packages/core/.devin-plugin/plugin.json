@@ -1,0 +1,18 @@
+{
+  "name": "ui-sdk",
+  "displayName": "UI SDK",
+  "description": "Build interfaces and custom components from UI SDK behaviors in React, Vue, Svelte, Solid and web components",
+  "shortDescription": "Build interfaces from UI behaviors",
+  "homepage": "https://ui-sdk.dev",
+  "repository": "https://github.com/vercel-labs/ui",
+  "license": "Apache-2.0",
+  "keywords": [
+    "ui",
+    "ui-sdk",
+    "behaviors",
+    "accessibility",
+    "headless",
+    "components",
+    "agents"
+  ]
+}

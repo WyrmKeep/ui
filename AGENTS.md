@@ -42,6 +42,7 @@ Component libraries cover familiar patterns like menus, dialogs and tabs. Real p
 
 - `.agents/skills/` holds the skills for working on ui-sdk: `ui-sdk-write-code`, `ui-sdk-write-docs`, `ui-sdk-unslop` and `ui-sdk-expert-review`. [Its README](.agents/skills/README.md) says when to use each. Plain Markdown, usable from any harness: read `SKILL.md` and follow it.
 - `packages/core/skills/ui-sdk` ships inside `@ui-sdk/core` to people building their own components on it. `skills.sh.json` points `npx skills add vercel-labs/ui` at that folder. The skills in `.agents/skills/` are marked `internal`, so it doesn't offer them.
+- `packages/core/.devin-plugin/plugin.json` makes `packages/core` a Devin plugin with that same skill: `devin plugins install vercel-labs/ui#packages/core`. The plugin is `packages/core` and not the repo, because Devin adds the `AGENTS.md` at a plugin's root to every session, and this file is for contributors.
 
 ## Framework experts
 
