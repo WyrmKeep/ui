@@ -1,0 +1,8 @@
+{
+  "name": "ui-sdk",
+  "displayName": "UI SDK",
+  "description": "Build interfaces and custom components from UI SDK behaviors in React, Vue, Svelte, Solid and web components",
+  "homepage": "https://ui-sdk.dev",
+  "repository": "https://github.com/vercel-labs/ui",
+  "license": "Apache-2.0"
+}
