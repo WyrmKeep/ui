@@ -23,7 +23,9 @@ In [Devin](https://devin.ai), install the skill as a plugin:
 devin plugins install vercel-labs/ui#packages/core
 ```
 
-The plugin follows your Devin account, so the skill loads in cloud sessions, the Devin CLI, and Devin Desktop. Run it with `/ui-sdk:ui-sdk`. Without the CLI, open **Customize** in the web app, choose **Add plugin**, then **From repository**, and enter `vercel-labs/ui` with the subdirectory `packages/core`.
+The plugin follows your Devin account, so the skill loads in cloud sessions, the Devin CLI, and Devin Desktop. Run it with `/ui-sdk:ui-sdk`.
+
+Without the CLI, open **Customize** in the web app, choose **Add plugin**, then **From repository**. Enter `vercel-labs/ui` as the repository and `packages/core` as the subdirectory. The subdirectory is required: without it, Devin reports that it found no plugin manifest.
 
 ## Use the Skill
 
