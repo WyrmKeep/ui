@@ -17,15 +17,15 @@ The skill also ships inside `@ui-sdk/core`, at `node_modules/@ui-sdk/core/skills
 
 ### Devin
 
-In [Devin](https://devin.ai), install the skill as a plugin:
+To have the skill in every [Devin](https://devin.ai) session, in the cloud, the Devin CLI, and Devin Desktop, install it as a plugin:
 
 ```bash
 devin plugins install vercel-labs/ui#packages/core
 ```
 
-The plugin follows your Devin account, so the skill loads in cloud sessions, the Devin CLI, and Devin Desktop. Run it with `/ui-sdk:ui-sdk`.
+Devin uses the skill when a task needs it, or you can run it with `/ui-sdk:ui-sdk`.
 
-Without the CLI, open **Customize** in the web app, choose **Add plugin**, then **From repository**. Enter `vercel-labs/ui` as the repository and `packages/core` as the subdirectory. The subdirectory is required: without it, Devin reports that it found no plugin manifest.
+In the web app, open **Customize**, choose **Add plugin** on the **Plugins** tab, then **From repository**. Enter `vercel-labs/ui` as the repository and `packages/core` as the subdirectory. Without the subdirectory, Devin finds no plugin manifest.
 
 ## Use the Skill
 
